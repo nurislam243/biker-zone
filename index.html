@@ -174,8 +174,9 @@
      <main class="md:container md:mx-auto">
       <!-- featured bike section - homework -->
        <section>
-          <h3 class="text-5xl font-bold text-center mt-32 mb-6">Fetured Bikes In This Year</h3>
-          <p class="text-red-600 text-center mb-12">Best bike collection</p>
+          <h3 class="text-5xl font-bold text-center mt-32 mb-6">Featured Bikes In This Year</h3>
+          <p class="text-red-600 text-center mb-2">Best bike collection</p>
+          <hr class="mb-12 border border-bike-primary w-24 mx-auto">
           <div class="flex flex-col lg:flex-row justify-between items-center gap-20 px-10">
               <img
                 class="max-w-[280px] xl:max-w-[340px] w-3/5 md:w-2/4 lg:w-3/12" src="images/others/feature-bike.png"
@@ -195,7 +196,7 @@
           <!-- cards -->
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mx-4 lg:mx-2">
             <!-- card 1 -->
-            <div class="card card-compact bg-base-100 shadow-xl">
+            <div class="card card-compact bg-base-100 border border-gray-200 shadow-xl p-4">
               <figure>
                 <img
                   src="images/others/latest1.png"
@@ -210,7 +211,7 @@
               </div>
             </div>
             <!-- card 2 -->
-            <div class="card card-compact bg-base-100 shadow-xl">
+            <div class="card card-compact bg-base-100 border border-gray-200 shadow-xl p-4">
               <figure>
                 <img
                   src="images/others/latest2.png"
@@ -225,7 +226,7 @@
               </div>
             </div>
             <!-- card 3 -->
-            <div class="card card-compact bg-base-100 shadow-xl">
+            <div class="card card-compact bg-base-100 border border-gray-200 shadow-xl p-4">
               <figure>
                 <img
                   src="images/others/latest3.png"
@@ -246,9 +247,9 @@
          <section>
           <h3 class="text-5xl font-bold text-center mb-12">Happy<span class="text-bike-primary"> Clients Says</span></h3>
           <!-- client cards -->
-           <div class="">
+           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mx-4 lg:mx-2">
             <!-- client card 1 -->
-            <div class="card bg-base-100 lg:w-4/12 border border-gray-200 shadow-sm">
+            <div class="card bg-base-100 border border-gray-200 shadow-sm">
               <figure class="px-10 pt-10">
                 <div class="avatar flex justify-center">
                   <div class="w-3/5 rounded-full">
@@ -273,7 +274,7 @@
               </div>
             </div>
             <!-- client card 2 -->
-            <div class="card bg-base-100 lg:w-4/12 border border-gray-200 shadow-sm">
+            <div class="card bg-base-100 border border-gray-200 shadow-sm">
               <figure class="px-10 pt-10">
                 <div class="avatar flex justify-center">
                   <div class="w-3/5 rounded-full">
@@ -298,7 +299,7 @@
               </div>
             </div>
             <!-- client card 3 -->
-            <div class="card bg-base-100 lg:w-4/12 border border-gray-200 shadow-sm">
+            <div class="card bg-base-100 border border-gray-200 shadow-sm">
               <figure class="px-10 pt-10">
                 <div class="avatar flex justify-center">
                   <div class="w-3/5 rounded-full">
@@ -324,7 +325,7 @@
             </div>
            </div>
          </section>
-
+         
         <!-- FAQ section -->
         <section class="my-24">
           <h3 class="text-5xl font-bold text-center mb-12">Frequently Asked <span class="text-bike-primary">Questions</span></h3>
@@ -377,13 +378,21 @@
      </main>
 
     <!-- footer section -->
-    <footer class="footer bg-black text-neutral-content p-10">
+    <footer class="footer bg-black text-neutral-content p-10 justify-around">
       <aside>
-        <p>
-          ACME Industries Ltd.
-          <br />
-          Providing reliable tech since 1992
+        <p class="space-x-5 text-base leading-7">
+          <span>Download Now</span>
+          <span>License</span>
+        <p class="text-base leading-7">
+          <span class="mr-4">About</span>
+          <span class="mr-4">Features</span>
+          <span class="mr-4">Pricing</span>
+          <span class="mr-4">Careers</span>
+          <span class="mr-4">Help</span>
+          <span class="mr-4">Privacy Policy</span>
         </p>
+        </p>
+        <p class="leading-6 ">© 2020 bike. All rights reserved</p>
       </aside>
       <nav>
         <h6 class="footer-title">Get The App</h6>
